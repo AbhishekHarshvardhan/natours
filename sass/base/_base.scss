@@ -1,0 +1,16 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  // This defines what 1rem is
+  font-size: 62.5%; /* Note- rem are font based, so setting root element to 10px makes it easy for calculation */
+}
+
+body {
+  box-sizing: border-box;
+}
