@@ -8,7 +8,7 @@
     url(../img/hero.jpg);
   background-size: cover; /* Sets the entire image in the given height*/
   background-position: top; /* Makes sure that the top of the images always stays as it is */
-  clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
   position: relative;
 
   &__logo-box {
